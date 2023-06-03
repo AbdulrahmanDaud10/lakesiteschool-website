@@ -38,7 +38,7 @@ class MailView{
 
         $mail->SMTPAuth = true;
         $mail->Username = 'daudabdulrahman22@gmail.com';
-        $mail->Password = "ukjemlyiblllochi";
+        $mail->Password = ""; // Check the password on the enviroment file
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
         $mail->Host = 'smtp.gmail.com';
